@@ -1,4 +1,4 @@
-# FilingLens: A Hybrid RAG and Tool-calling Agent for Stock Investment Research
+# FilingLens: A RAG and Tool-calling Agent for Stock Investment Research
 
 Ask questions about a company's 10-K and 10-Q filings in natural language and get cited text and chart answers.
 
