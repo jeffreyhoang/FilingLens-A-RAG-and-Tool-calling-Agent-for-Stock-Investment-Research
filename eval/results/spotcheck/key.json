@@ -1,0 +1,42 @@
+{
+  "g006": {
+    "A": "claude-haiku-4-5",
+    "B": "gpt-5.4-mini"
+  },
+  "g007": {
+    "A": "claude-haiku-4-5",
+    "B": "gpt-5.4-mini"
+  },
+  "g008": {
+    "A": "gpt-5.4-mini",
+    "B": "claude-haiku-4-5"
+  },
+  "g009": {
+    "A": "gpt-5.4-mini",
+    "B": "claude-haiku-4-5"
+  },
+  "g013": {
+    "A": "claude-haiku-4-5",
+    "B": "gpt-5.4-mini"
+  },
+  "g015": {
+    "A": "claude-haiku-4-5",
+    "B": "gpt-5.4-mini"
+  },
+  "g017": {
+    "A": "claude-haiku-4-5",
+    "B": "gpt-5.4-mini"
+  },
+  "g018": {
+    "A": "gpt-5.4-mini",
+    "B": "claude-haiku-4-5"
+  },
+  "g020": {
+    "A": "gpt-5.4-mini",
+    "B": "claude-haiku-4-5"
+  },
+  "g022": {
+    "A": "claude-haiku-4-5",
+    "B": "gpt-5.4-mini"
+  }
+}

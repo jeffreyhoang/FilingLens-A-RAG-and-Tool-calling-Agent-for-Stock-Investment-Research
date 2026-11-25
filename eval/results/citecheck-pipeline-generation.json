@@ -1,0 +1,21 @@
+{
+  "predictions": "pipeline-generation.jsonl",
+  "checked_replies": 21,
+  "flagged_replies": 1,
+  "flagged_ids": [
+    "g018"
+  ],
+  "flags": [
+    {
+      "id": "g018",
+      "sentence": "NVIDIA\u2019s revenue increased from $10.9 billion in fiscal 2020 to $130.5 billion in fiscal 2025, an increase of about $119.6 billion, or roughly 11.9x. [21][26]",
+      "numbers": [
+        "11.9x"
+      ],
+      "cited": [
+        21,
+        26
+      ]
+    }
+  ]
+}

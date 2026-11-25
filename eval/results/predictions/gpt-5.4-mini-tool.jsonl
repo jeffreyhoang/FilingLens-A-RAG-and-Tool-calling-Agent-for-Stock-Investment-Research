@@ -1,0 +1,30 @@
+{"id": "t001", "tool": "get_metric", "args": {"ticker": "AAPL", "metric": "revenue", "fiscal_year": 2024, "fiscal_period": "FY"}, "ms": 1948, "input_tokens": 1350, "output_tokens": 37}
+{"id": "t002", "tool": "get_metric", "args": {"ticker": "MSFT", "metric": "net_income", "fiscal_year": 2023, "fiscal_period": "FY"}, "ms": 1606, "input_tokens": 1355, "output_tokens": 37}
+{"id": "t003", "tool": "get_metric", "args": {"ticker": "NVDA", "metric": "operating_income", "fiscal_year": 2025, "fiscal_period": "FY"}, "ms": 1324, "input_tokens": 1352, "output_tokens": 38}
+{"id": "t004", "tool": "get_metric", "args": {"ticker": "GOOGL", "metric": "rnd_expense", "fiscal_year": 2022, "fiscal_period": "FY"}, "ms": 1510, "input_tokens": 1354, "output_tokens": 58}
+{"id": "t005", "tool": "get_metric", "args": {"ticker": "AMZN", "metric": "total_assets", "fiscal_year": 2021, "fiscal_period": "FY"}, "ms": 1454, "input_tokens": 1355, "output_tokens": 37}
+{"id": "t006", "tool": "get_metric", "args": {"ticker": "NFLX", "metric": "operating_cash_flow", "fiscal_year": 2020, "fiscal_period": "FY"}, "ms": 1134, "input_tokens": 1352, "output_tokens": 39}
+{"id": "t007", "tool": "get_metric", "args": {"ticker": "TSLA", "metric": "revenue", "fiscal_year": 2023, "fiscal_period": "Q3"}, "ms": 1533, "input_tokens": 1354, "output_tokens": 38}
+{"id": "t008", "tool": "get_metric", "args": {"ticker": "CSCO", "metric": "eps_diluted", "fiscal_year": 2019, "fiscal_period": "FY"}, "ms": 1325, "input_tokens": 1352, "output_tokens": 39}
+{"id": "t009", "tool": "get_metric", "args": {"ticker": "ORCL", "metric": "net_income", "fiscal_year": 2024, "fiscal_period": "Q2"}, "ms": 3698, "input_tokens": 1356, "output_tokens": 38}
+{"id": "t010", "tool": "get_metric", "args": {"ticker": "ADBE", "metric": "revenue", "fiscal_year": 2022, "fiscal_period": "Q1"}, "ms": 1636, "input_tokens": 1353, "output_tokens": 38}
+{"id": "t011", "tool": "get_metric", "args": {"ticker": "AAPL", "metric": "revenue", "fiscal_year": 2023, "fiscal_period": "Q4"}, "ms": 1227, "input_tokens": 1354, "output_tokens": 38}
+{"id": "t012", "tool": "get_metric", "args": {"ticker": "MSFT", "metric": "rnd_expense", "fiscal_year": 2018, "fiscal_period": "FY"}, "ms": 1332, "input_tokens": 1354, "output_tokens": 38}
+{"id": "t013", "tool": "compare_companies", "args": {"tickers": ["AAPL", "MSFT"], "metric": "revenue", "fiscal_year": 2023, "fiscal_period": "FY"}, "ms": 1339, "input_tokens": 1351, "output_tokens": 43}
+{"id": "t014", "tool": "compare_companies", "args": {"tickers": ["GOOGL", "AMZN"], "metric": "net_income", "fiscal_year": 2022, "fiscal_period": "FY"}, "ms": 1132, "input_tokens": 1355, "output_tokens": 44}
+{"id": "t015", "tool": "compare_companies", "args": {"tickers": ["NVDA", "ADBE", "ORCL"], "metric": "rnd_expense", "fiscal_year": 2024, "fiscal_period": "FY"}, "ms": 1525, "input_tokens": 1357, "output_tokens": 47}
+{"id": "t016", "tool": "compare_companies", "args": {"tickers": ["NFLX", "TSLA"], "metric": "operating_income", "fiscal_year": 2021, "fiscal_period": "FY"}, "ms": 1641, "input_tokens": 1356, "output_tokens": 62}
+{"id": "t017", "tool": "compare_companies", "args": {"tickers": ["GOOGL", "MSFT"], "metric": "operating_cash_flow", "fiscal_year": 2024, "fiscal_period": "FY"}, "ms": 1427, "input_tokens": 1354, "output_tokens": 46}
+{"id": "t018", "tool": "compare_companies", "args": {"tickers": ["CSCO", "ORCL"], "metric": "total_assets", "fiscal_year": 2020, "fiscal_period": "FY"}, "ms": 1572, "input_tokens": 1358, "output_tokens": 43}
+{"id": "t019", "tool": "compare_companies", "args": {"tickers": ["AMZN", "AAPL", "GOOGL"], "metric": "revenue", "fiscal_year": 2019, "fiscal_period": "FY"}, "ms": 1502, "input_tokens": 1356, "output_tokens": 47}
+{"id": "t020", "tool": "compare_companies", "args": {"tickers": ["ADBE", "CSCO"], "metric": "eps_diluted", "fiscal_year": 2018, "fiscal_period": "FY"}, "ms": 1332, "input_tokens": 1354, "output_tokens": 45}
+{"id": "t021", "tool": "compare_companies", "args": {"tickers": ["NFLX", "MSFT"], "metric": "revenue", "fiscal_year": 2024, "fiscal_period": "Q1"}, "ms": 1739, "input_tokens": 1353, "output_tokens": 44}
+{"id": "t022", "tool": "get_metric_series", "args": {"ticker": "NVDA", "metric": "revenue", "start_year": 2020, "end_year": 2025, "fiscal_period": "FY"}, "ms": 1333, "input_tokens": 1356, "output_tokens": 43}
+{"id": "t023", "tool": "get_metric_series", "args": {"ticker": "TSLA", "metric": "net_income", "start_year": 2018, "end_year": 2023, "fiscal_period": "FY"}, "ms": 1424, "input_tokens": 1358, "output_tokens": 43}
+{"id": "t024", "tool": "get_metric_series", "args": {"ticker": "NFLX", "metric": "operating_income", "start_year": 2016, "end_year": 2020, "fiscal_period": "FY"}, "ms": 1463, "input_tokens": 1357, "output_tokens": 44}
+{"id": "t025", "tool": "get_metric_series", "args": {"ticker": "AMZN", "metric": "operating_cash_flow", "start_year": 2019, "end_year": 2024, "fiscal_period": "FY"}, "ms": 1475, "input_tokens": 1357, "output_tokens": 67}
+{"id": "t026", "tool": "get_metric_series", "args": {"ticker": "AAPL", "metric": "rnd_expense", "start_year": 2017, "end_year": 2022, "fiscal_period": "FY"}, "ms": 1167, "input_tokens": 1357, "output_tokens": 44}
+{"id": "t027", "tool": "get_metric_series", "args": {"ticker": "MSFT", "metric": "total_assets", "start_year": 2020, "end_year": 2024, "fiscal_period": "FY"}, "ms": 1435, "input_tokens": 1358, "output_tokens": 43}
+{"id": "t028", "tool": "get_metric_series", "args": {"ticker": "ORCL", "metric": "revenue", "start_year": 2016, "end_year": 2019, "fiscal_period": "FY"}, "ms": 1637, "input_tokens": 1356, "output_tokens": 43}
+{"id": "t029", "tool": "get_metric_series", "args": {"ticker": "ADBE", "metric": "net_income", "start_year": 2021, "end_year": 2024, "fiscal_period": "Q2"}, "ms": 2150, "input_tokens": 1361, "output_tokens": 163}
+{"id": "t030", "tool": "get_metric_series", "args": {"ticker": "GOOGL", "metric": "eps_diluted", "start_year": 2023, "end_year": 2025, "fiscal_period": "FY"}, "ms": 1258, "input_tokens": 1357, "output_tokens": 46}

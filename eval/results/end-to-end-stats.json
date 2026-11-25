@@ -1,0 +1,61 @@
+{
+  "questions": 30,
+  "time_all": {
+    "route": {
+      "questions": 30,
+      "mean_ms": 1943,
+      "p95_ms": 2192,
+      "max_ms": 17456
+    },
+    "search": {
+      "questions": 21,
+      "mean_ms": 1069,
+      "p95_ms": 2362,
+      "max_ms": 4268
+    },
+    "tool": {
+      "questions": 13,
+      "mean_ms": 1900,
+      "p95_ms": 5143,
+      "max_ms": 5143
+    },
+    "generate": {
+      "questions": 30,
+      "mean_ms": 1692,
+      "p95_ms": 1948,
+      "max_ms": 9846
+    },
+    "total": {
+      "questions": 30,
+      "mean_ms": 4879,
+      "p95_ms": 11886,
+      "max_ms": 18505
+    }
+  },
+  "total_with_sources": {
+    "questions": 21,
+    "mean_ms": 4630,
+    "p95_ms": 7520,
+    "max_ms": 7998
+  },
+  "total_clarify_or_refuse": {
+    "questions": 9,
+    "mean_ms": 5460,
+    "p95_ms": 18505,
+    "max_ms": 18505
+  },
+  "cost_per_question": {
+    "mean_usd": 0.00529,
+    "max_usd": 0.00868,
+    "mean_input_tokens": 5633,
+    "mean_output_tokens": 237,
+    "mean_embed_tokens": 12
+  },
+  "total_usd": 0.1588,
+  "routes_changed_from_saved_evidence": [
+    "g008: metric -> out_of_scope",
+    "g012: metric -> narrative"
+  ],
+  "invalid_citations": 0,
+  "answers_with_unsupported_figures": 1
+}

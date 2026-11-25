@@ -3,9 +3,6 @@
 .env.*
 !.env.example
 
-# Claude Code (local skills and settings)
-.claude
-
 # Python
 .venv/
 __pycache__/
@@ -19,6 +16,16 @@ node_modules/
 # Data (keep the folder, ignore the downloaded filings)
 data/raw/*
 !data/raw/.gitkeep
+data/processed/sections/
+data/processed/chunks*/
+data/processed/metrics/
+data/processed/embeddings/
 
 # OS
 .DS_Store
+
+# Pipeline logs
+logs/
+
+# Decision documents
+docs/

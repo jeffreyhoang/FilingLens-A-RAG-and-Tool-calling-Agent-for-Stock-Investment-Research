@@ -1,0 +1,21 @@
+id,answer,correctness,faithfulness,note
+g006,A,1,1,
+g006,B,1,0,exchange-rate offset is not in the cited Q3 passage
+g007,A,1,0,"""declined 8.0 points to 56.9%"" is not in the cited sources"
+g007,B,1,1,
+g008,A,1,1,
+g008,B,1,1,"""current"" means due within 12 months; fair paraphrase"
+g009,A,1,1,
+g009,B,1,1,"""25 years"" rounds Sept 2000 to July 2025"
+g013,A,1,1,services-led growth follows from the cited table
+g013,B,1,1,
+g015,A,1,1,
+g015,B,1,1,
+g017,A,1,1,
+g017,B,1,1,
+g018,A,0,1,omits the year-by-year figures
+g018,B,1,0,"""accelerated 114%"" is wrong (growth slowed from 126%); Blackwell not stated as a driver"
+g020,A,1,1,
+g020,B,1,0,11% and $18.5B are only in source [4]; it cites [1][2]
+g022,A,0,1,omits growth in other operating expenses
+g022,B,1,1,

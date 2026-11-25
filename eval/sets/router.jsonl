@@ -1,0 +1,50 @@
+{"id":"q001","query":"What does Apple say about its dependence on outsourcing partners in China?","route":"narrative"}
+{"id":"q002","query":"How does Microsoft describe the competition it faces in cloud services?","route":"narrative"}
+{"id":"q003","query":"What are Netflix's main risks related to licensing content?","route":"narrative"}
+{"id":"q004","query":"How does NVIDIA describe its data center platform?","route":"narrative"}
+{"id":"q005","query":"What did Tesla say about ramping production of new vehicles in its 2022 annual report?","route":"narrative"}
+{"id":"q006","query":"How does Amazon describe its AWS business?","route":"narrative"}
+{"id":"q007","query":"What cybersecurity risks does Alphabet highlight?","route":"narrative"}
+{"id":"q008","query":"What does Oracle say about its cloud infrastructure strategy?","route":"narrative"}
+{"id":"q009","query":"How does Cisco describe its shift toward subscription-based offerings?","route":"narrative"}
+{"id":"q010","query":"What reasons did Adobe give for changes in its Digital Experience business in fiscal 2023?","route":"narrative"}
+{"id":"q011","query":"What was Apple's revenue in fiscal 2024?","route":"metric"}
+{"id":"q012","query":"What was Microsoft's net income in the second quarter of fiscal 2025?","route":"metric"}
+{"id":"q013","query":"How much did NVIDIA spend on R&D in fiscal 2026?","route":"metric"}
+{"id":"q014","query":"What were Amazon's total assets at the end of 2023?","route":"metric"}
+{"id":"q015","query":"What was Tesla's diluted EPS in Q3 2025?","route":"metric"}
+{"id":"q016","query":"Show Netflix's quarterly operating income from 2022 to 2025.","route":"metric"}
+{"id":"q017","query":"Compare Alphabet's and Microsoft's operating cash flow in fiscal 2024.","route":"metric"}
+{"id":"q018","query":"What was Cisco's operating income in fiscal 2021?","route":"metric"}
+{"id":"q019","query":"How did Oracle's revenue change from fiscal 2019 to fiscal 2025?","route":"metric"}
+{"id":"q020","query":"What was Adobe's operating cash flow in the first quarter of fiscal 2026?","route":"metric"}
+{"id":"q021","query":"Why did Apple's revenue decline in fiscal 2023, and by how much?","route":"hybrid"}
+{"id":"q022","query":"How much did NVIDIA's revenue grow in fiscal 2024, and what drove it?","route":"hybrid"}
+{"id":"q023","query":"What was Netflix's operating income in 2022, and what did management say affected it?","route":"hybrid"}
+{"id":"q024","query":"Tesla's net income fell in 2024. How much, and what reasons did it give?","route":"hybrid"}
+{"id":"q025","query":"How did Amazon's operating cash flow change in 2022, and why?","route":"hybrid"}
+{"id":"q026","query":"How much did Microsoft spend on R&D in fiscal 2025, and what is that spending focused on?","route":"hybrid"}
+{"id":"q027","query":"How did Alphabet's net income change in the third quarter of 2026, and what explains it?","route":"hybrid"}
+{"id":"q028","query":"How did Cisco's revenue change in fiscal 2024, and what reasons did it give?","route":"hybrid"}
+{"id":"q029","query":"What was Oracle's operating income in fiscal 2026, and what drove its cloud growth?","route":"hybrid"}
+{"id":"q030","query":"How much did Adobe earn in fiscal 2024, and what risks did it flag that year?","route":"hybrid"}
+{"id":"q031","query":"What was the revenue last quarter?","route":"ambiguous"}
+{"id":"q032","query":"How did they do in fiscal 2024?","route":"ambiguous"}
+{"id":"q033","query":"Compare the two companies' margins.","route":"ambiguous"}
+{"id":"q034","query":"What are the main risks?","route":"ambiguous"}
+{"id":"q035","query":"Did net income go up?","route":"ambiguous"}
+{"id":"q036","query":"What did the company say about AI?","route":"ambiguous"}
+{"id":"q037","query":"Show me the trend.","route":"ambiguous"}
+{"id":"q038","query":"What was Q2 EPS?","route":"ambiguous"}
+{"id":"q039","query":"Which one spent more on R&D?","route":"ambiguous"}
+{"id":"q040","query":"How much cash did it generate in 2023?","route":"ambiguous"}
+{"id":"q041","query":"Should I buy Apple stock right now?","route":"out_of_scope"}
+{"id":"q042","query":"What will NVIDIA's share price be next year?","route":"out_of_scope"}
+{"id":"q043","query":"Is Tesla a better investment than Amazon?","route":"out_of_scope"}
+{"id":"q044","query":"What was Meta's revenue in 2024?","route":"out_of_scope"}
+{"id":"q045","query":"Predict Microsoft's revenue for fiscal 2028.","route":"out_of_scope"}
+{"id":"q046","query":"What is Netflix's current stock price?","route":"out_of_scope"}
+{"id":"q047","query":"How should I split my retirement savings between tech stocks?","route":"out_of_scope"}
+{"id":"q048","query":"What's the weather in Cupertino today?","route":"out_of_scope"}
+{"id":"q049","query":"Write me a poem about Oracle.","route":"out_of_scope"}
+{"id":"q050","query":"Will Alphabet beat earnings estimates next quarter?","route":"out_of_scope"}

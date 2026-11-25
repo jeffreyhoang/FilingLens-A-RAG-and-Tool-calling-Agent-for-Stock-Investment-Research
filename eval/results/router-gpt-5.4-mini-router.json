@@ -1,0 +1,29 @@
+{
+  "items": 50,
+  "accuracy": 100.0,
+  "per_class": {
+    "narrative": 100.0,
+    "metric": 100.0,
+    "hybrid": 100.0,
+    "ambiguous": 100.0,
+    "out_of_scope": 100.0
+  },
+  "confusion": {
+    "narrative": {
+      "narrative": 10
+    },
+    "metric": {
+      "metric": 10
+    },
+    "hybrid": {
+      "hybrid": 10
+    },
+    "ambiguous": {
+      "ambiguous": 10
+    },
+    "out_of_scope": {
+      "out_of_scope": 10
+    }
+  },
+  "wrong": []
+}

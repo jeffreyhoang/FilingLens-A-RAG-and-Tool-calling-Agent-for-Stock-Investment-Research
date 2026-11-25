@@ -1,0 +1,69 @@
+{
+  "agreement": "35/40 (88%)",
+  "per_metric": {
+    "correctness": "20/20 (100%)",
+    "faithfulness": "15/20 (75%)"
+  },
+  "per_model": {
+    "gpt-5.4-mini": "19/20 (95%)",
+    "claude-haiku-4-5": "16/20 (80%)"
+  },
+  "your_scores": {
+    "gpt-5.4-mini": {
+      "correctness": "9/10",
+      "faithfulness": "9/10"
+    },
+    "claude-haiku-4-5": {
+      "correctness": "9/10",
+      "faithfulness": "7/10"
+    }
+  },
+  "disagreements": [
+    {
+      "id": "g007",
+      "model": "claude-haiku-4-5",
+      "metric": "faithfulness",
+      "you": 0,
+      "judge": 1,
+      "judge_reason": "All factual claims in the answer are directly supported by the cited sources, including the 8.0-point decline to 56.9%, the $2.17 billion inventory charges tied to excess Ampere supply and China demand expectations, segment-specific margin drivers, and the gross-margin impact of Gaming pricing programs.",
+      "note": "\"declined 8.0 points to 56.9%\" is not in the cited sources"
+    },
+    {
+      "id": "g008",
+      "model": "claude-haiku-4-5",
+      "metric": "faithfulness",
+      "you": 1,
+      "judge": 0,
+      "judge_reason": "The source supports that Tesla had $7.91 billion of outstanding indebtedness as of December 31, 2024, but it states only that $2.35 billion was 'current,' not explicitly that it was due within the succeeding 12 months.",
+      "note": "\"current\" means due within 12 months; fair paraphrase"
+    },
+    {
+      "id": "g009",
+      "model": "claude-haiku-4-5",
+      "metric": "faithfulness",
+      "you": 1,
+      "judge": 0,
+      "judge_reason": "All role and date details are supported by source [1], but the answer\u2019s claim that Patterson\u2019s Cisco background spans \u201c25 years\u201d is not exactly stated and is not directly supported because the source says he joined in September 2000, which is slightly less than 25 years by July/August 2025.",
+      "note": "\"25 years\" rounds Sept 2000 to July 2025"
+    },
+    {
+      "id": "g018",
+      "model": "gpt-5.4-mini",
+      "metric": "faithfulness",
+      "you": 1,
+      "judge": 0,
+      "judge_reason": "The revenue figures and $119.58 billion gain are supported, but 'roughly 12.0x higher' is not strictly supported because the increase is about 10.95x (1,095%) and the ending revenue is about 11.95x the starting level, not 12.0x higher.",
+      "note": "omits the year-by-year figures"
+    },
+    {
+      "id": "g020",
+      "model": "claude-haiku-4-5",
+      "metric": "faithfulness",
+      "you": 0,
+      "judge": 1,
+      "judge_reason": "The sources support that Apple\u2019s Q1 fiscal 2025 revenue was $124.3 billion and that Greater China net sales fell 11% to $18.513 billion due to lower iPhone net sales.",
+      "note": "11% and $18.5B are only in source [4]; it cites [1][2]"
+    }
+  ],
+  "ungraded": []
+}

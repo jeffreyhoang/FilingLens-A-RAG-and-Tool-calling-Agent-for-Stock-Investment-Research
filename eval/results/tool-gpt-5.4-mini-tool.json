@@ -1,0 +1,8 @@
+{
+  "items": 30,
+  "tool_accuracy": 100.0,
+  "call_accuracy": 100.0,
+  "value_accuracy": 100.0,
+  "wrong": [],
+  "wrong_values": []
+}

@@ -5,6 +5,7 @@ description = "FastAPI backend for the stock investment research agent"
 requires-python = ">=3.12"
 dependencies = [
     "anthropic>=1.13.0",
+    "edgartools>=5.62.0",
     "fastapi>=0.143.0",
     "openai>=3.29.0",
     "pgvector>=0.5.1",
@@ -20,11 +21,18 @@ python-preference = "only-managed"
 
 [dependency-groups]
 dev = [
-    "edgartools>=5.62.0",
     "ipykernel>=7.4.0",
     "jupyter>=1.1.1",
+    "pytest>=9.2.0",
     "ruff>=0.17.0",
 ]
+eval = [
+    "sentence-transformers>=6.3.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
 
 [tool.ruff]
 line-length = 88

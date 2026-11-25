@@ -1,0 +1,29 @@
+{
+  "items": 60,
+  "exact_match": 91.7,
+  "ticker_accuracy": 100.0,
+  "fiscal_year_accuracy": 100.0,
+  "fiscal_period_accuracy": 91.7,
+  "ticker_wrong": 0,
+  "ticker_extra": 0,
+  "ticker_missing": 0,
+  "fiscal_year_wrong": 0,
+  "fiscal_year_extra": 0,
+  "fiscal_year_missing": 0,
+  "fiscal_period_wrong": 0,
+  "fiscal_period_extra": 4,
+  "fiscal_period_missing": 1,
+  "can_hide_answer": [
+    "r003",
+    "r013",
+    "r014",
+    "r027"
+  ],
+  "not_exact": [
+    "r003",
+    "r013",
+    "r014",
+    "r027",
+    "r035"
+  ]
+}
